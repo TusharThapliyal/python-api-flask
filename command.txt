@@ -1,0 +1,2 @@
+curl -X POST -F "file=@/home/tushar/Documents/projects/doc" http://localhost:5000/upload
+
