@@ -8,12 +8,12 @@ from datetime import datetime
 app = Flask(__name__)
 
 # AWS S3 and RDS configuration
-AWS_S3_BUCKET_NAME = "uat-rb-ml"
-AWS_RDS_ENDPOINT = "uat-db.csgsmyvcbffd.ap-south-1.rds.amazonaws.com"
+AWS_S3_BUCKET_NAME = ""
+AWS_RDS_ENDPOINT = ""
 AWS_RDS_PORT = 3306
-AWS_RDS_DB_NAME = "py_test"
-AWS_RDS_USER = "py_test_user"
-AWS_RDS_PASSWORD = "abvEfFDfd"
+AWS_RDS_DB_NAME = ""
+AWS_RDS_USER = ""
+AWS_RDS_PASSWORD = ""
 
 # Initialize S3 and RDS clients using the IAM role attached to the EC2 instance
 s3_client = boto3.client("s3")
